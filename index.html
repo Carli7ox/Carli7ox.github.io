@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lan="es">
+  <head>
+    <meta charset="utf-8" />
+   <link rel="stylesheet" href="styles.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+    <body>
+      <div class="titulo">
+       <h1 id="title">¿QUE TE PARECE NUESTRA APP?</h1>
+       <p id="description">Para mejorar nuestros servicios te invitamos a responder esta breve encuesta</p>
+       <hr>
+      </div>      
+       <form id="survey-form">
+             <label for="name" id="name-label">Nombre/s: </label>
+            <input placeholder="Juan Carlos" id="name" type="text" required>   
+            <label for="last-name" id="last-name-label">Apellido: </label><input placeholder="Gerez" type="text" id="last-name" required>
+             <label  for="email" id="email-label">Correo: </label>
+             <input placeholder="pedro@hotmail.com" type="email" id="email" required> 
+             <label for="number" id="number-label" >Edad</label>
+                <input placeholder="34" id="number" type="number" min="18" max="60">   
+                <label>¿Hace cuanto usas la app?
+                <select id="dropdown">
+                  <option value="">(selecionar)</option>
+                  <option value="1">menos de un mes</option>
+                  <option value="2">mas de un mes</option>
+                  <option value="3">mas de seis meses</option>
+                  <option value="4">un año</option>
+                  <option value="5">mas de un año</option>
+                </select>
+              </label>           
+              <label class="bloque">¿Como nos conociste?</label>
+              <label class="bloque" class="checkbox">
+                <input  value="amigos" type="checkbox">Amigos
+              </label>
+              <label class="bloque" class="checkbox">
+                <input  value="familiares" type="checkbox">Familiares
+              </label>
+              <label class="bloque" class="checkbox">
+                <input  value="publicidad" type="checkbox">Publicidad
+              </label>
+              <label class="bloque" class="checkbox">
+                <input  value="videos" type="checkbox">Videos
+              </label>
+              <label class="bloque" class="checkbox">
+                <input  value="otros" type="checkbox">otros
+              </label>
+              <label>¿Te gusta nuestra app?</label>
+                <label><input type="radio" id="si" value="si" name="si">Si</label>
+                <label><input type="radio" id="no" value="no" name="si">No</label>
+              <label>¿En que crees que deberiamos mejorar?
+                <textarea></textarea>
+              </label>
+              <hr>
+            <input id="submit" type="submit" name="enviar">
+         </form> 
+     </body>
+</html>

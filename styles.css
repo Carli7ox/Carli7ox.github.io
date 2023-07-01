@@ -1,0 +1,67 @@
+body{
+   padding: 20px;
+   background-image: url(fondo-verde-oliva-dibujado-mano_23-2149724849.png);
+  background-size: cover;
+  
+}
+
+h1, p{
+   text-align: center;
+}
+ 
+ label {
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ textarea {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-bottom: 10px;
+ }
+ 
+ input[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+   background-color: #45a049;
+ }
+ form{
+   width: 80%;
+    background-color: #abd088 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 9px;
+ }
+
+ .titulo{
+  border-radius: 30px;
+   font-weight: bold;
+   width: 90%;
+   padding: 30px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9d2gRm28ja4HSPijydGb25vwUEvzp4FBegg&usqp=CAU);
+   margin-bottom: 10px;
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   /* box-shadow: 0 0 20px 0 green; */
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
